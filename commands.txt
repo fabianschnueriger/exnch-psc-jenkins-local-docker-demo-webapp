@@ -1,0 +1,5 @@
+docker build -t fsc/node-web-app .
+
+docker images
+
+docker run -p 49160:6666 -d fsc/node-web-app
