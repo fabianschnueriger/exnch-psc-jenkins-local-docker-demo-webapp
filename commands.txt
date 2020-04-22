@@ -4,6 +4,8 @@ docker images
 
 docker run -p 49160:6666 -d fsc/node-web-app
 
+docker run -p 8080:8080 -d fabianschnueriger/exnch-psc-jenkins-local-docker-demo-webapp
+
 ____________________________________________
 
 
