@@ -4,3 +4,11 @@ docker images
 
 docker run -p 49160:6666 -d fsc/node-web-app
 
+____________________________________________
+
+
+critical
+warn
+
+Only fail builds when a vendor fix is available 
+requirePackageUpdate: true
