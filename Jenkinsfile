@@ -19,7 +19,7 @@ node {
   stage('Scan') {
     twistlockScan ca: '', 
         cert: '', 
-        compliancePolicy: 'critical', 
+        compliancePolicy: 'warn', 
         containerized: false, 
         dockerAddress: 'unix:///var/run/docker.sock', 
         gracePeriodDays: 0, 
@@ -27,7 +27,7 @@ node {
         image: 'fabianschnueriger/exnch-psc-jenkins-local-docker-demo-webapp', 
         key: '', 
         logLevel: 'true', 
-        policy: 'critical', 
+        policy: 'warn', 
         requirePackageUpdate: false, 
         timeout: 10
     }
